@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fatemeh Rezaei</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/66cd15d80b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="loading">
+      <span class="load"></span>
+    </div>
+    <div class="wrapper">
+      <!-- START HEADER SECTION -->
+      <header>
+        <div id="top-header">
+          <div id="logo">
+            <img src="images/logo.png" alt="logo" />
+            <h1>FOX. UNIVERSITY</h1>
+          </div>
+          <div id="email">
+            <i class="fa fa-paper-plane fa-lg" aria-hidden="true"></i>
+            <p>Email</p>
+            <p>youremail@email.com</p>
+          </div>
+          <div id="call">
+            <i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+            <p>Call</p>
+            <p>Call Us: + 1235 2355 98</p>
+          </div>
+          <div id="menubar">
+            <div class="menuopen">
+              <i class="fa fa-user-circle-o fa-2xl" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- SLIDING MENO SIGN IN -->
+      <section>
+        <div class="layer1">
+          <div class="layer2">
+            <div class="layer3">
+              <div class="layer4">
+                <div class="menuclose"><i class="fa fa-times fa-2xl"></i></div>
+                <div class="links">
+                  <ul>
+                    <li>
+                      <a href="#" id="sign-links">Sing in / Sing out</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SIGN IN FORM -->
+      <section class="sign-frm">
+        <div class="sign-frm-close"><i class="fa fa-times fa-2xl"></i></div>
+        <div id="sign">
+          <div class="btn-box">
+            <div id="btn-color"></div>
+            <button class="toggle-btn" id="btn-sign-in">Sign In</button>
+            <button class="toggle-btn" id="btn-sign-out">Sign Out</button>
+          </div>
+          <div class="social-frm">
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-twitter fa-2xl" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-facebook fa-2xl" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-instagram fa-2xl" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <form id="login" class="input-group" action="#" method="post">
+            <div class="form-control">
+              <input
+                type="text"
+                name="txt-user-name"
+                class="input-field"
+                id="username1"
+                placeholder="User Name"
+              />
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              <span>Error</span>
+            </div>
+            <div class="form-control">
+              <input
+                type="password"
+                name="txt-pass"
+                class="input-field"
+                id="password1"
+                placeholder="Password"
+              />
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              <span>Error</span>
+            </div>
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox">Remember Me</label>
+            <input type="submit" value="Sign In" />
+          </form>
+          <form id="register" class="input-group" action="#" method="post">
+            <div class="form-control">
+              <input
+                type="email"
+                name="txt-email"
+                class="input-field"
+                id="email-"
+                placeholder="E-mail"
+              />
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              <span>Error</span>
+            </div>
+            <div class="form-control">
+              <input
+                type="text"
+                name="txt-user-name"
+                class="input-field"
+                id="username"
+                placeholder="User Name"
+              />
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              <span>Error</span>
+            </div>
+            <div class="form-control">
+              <input
+                type="password"
+                name="txt-pass"
+                class="input-field"
+                id="password"
+                placeholder="Password"
+              />
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              <span>Error</span>
+            </div>
+            <div class="form-control">
+              <input
+                type="password"
+                name="txt-pass"
+                class="input-field"
+                id="password2"
+                placeholder="Repeat Password"
+              />
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              <span>Error</span>
+            </div>
+            <input type="submit" value="Sign Out" />
+          </form>
+        </div>
+        <div class="alert-box hidden">
+          <p>Registration Completed Successfully</p>
+          <i class="fa fa-times close-btn-alert"></i>
+        </div>
+      </section>
+
+      <!-- VAV SECTION -->
+      <section class="navigation">
+        <nav id="nav">
+          <ul>
+            <li class="activeNav"><a href="#">Home</a></li>
+            <li class="about-"><a href="#about-">About</a></li>
+            <li class="course-"><a href="#course-">Courses</a></li>
+            <li class="teachers-"><a href="#teachers-">Staff</a></li>
+            <li class="recent-blog-"><a href="#recent-blog-">Blog</a></li>
+            <li class="contact-"><a href="#contact-">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="search-box">
+          <div class="search-popup">
+            <form action="#" method="post">
+              <div class="form-group">
+                <input
+                  type="search"
+                  class="form-control"
+                  name="search-box"
+                  placeholder="Search"
+                />
+                <button class="submit-btn">
+                  <i class="fa fa-search fa-xl" aria-hidden="true"></i>
+                </button>
+                <div class="search-close-btn">
+                  <i class="fa fa-times fa-2xl"></i>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div id="srch-icon">
+            <i class="fa fa-search fa-xl btn-search-nav" aria-hidden="true"></i>
+            <div class="cart-count">
+              <div class="total-counter">0</div>
+              <i class="fa fa-shopping-cart fa-xl" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cart">
+          <div class="cart_items">
+            <div class="check_out">
+              <h4 class="total_price">Total Price</h4>
+              <h4 class="total_cost">0 $</h4>
+              <button class="btn_small check_out_btn">Delete All</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+
+      <!-- SLIDER SECTION -->
+      <section class="home-slider" id="slider-">
+        <div class="slider">
+          <div class="slide slide1 active">
+            <div class="container">
+              <div class="caption">
+                <h2>Education Needs Complete Solution</h2>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.
+                </p>
+                <a href="#">Contact Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide2">
+            <div class="container">
+              <div class="caption">
+                <h2>University, College School Education</h2>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.
+                </p>
+                <a href="#">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="controls">
+          <div class="next">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+          <div class="prev">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="indicator"></div>
+      </section>
+
+      <!-- UNI SERVICES -->
+      <section class="uni-services" id="about-">
+        <div class="grid-box">
+          <div class="inner-service">
+            <div class="services">
+              <div class="services-icon">
+                <i
+                  class="fa fa-chalkboard-teacher fa-2xl"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <h3>Certified Teachers</h3>
+              <p>
+                Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic.
+              </p>
+            </div>
+          </div>
+          <div class="inner-service">
+            <div class="services">
+              <div class="services-icon">
+                <i class="fas fa-book-reader fa-2xl" aria-hidden="true"></i>
+              </div>
+              <h3>Special Education</h3>
+              <p>
+                Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic.
+              </p>
+            </div>
+          </div>
+          <div class="inner-service">
+            <div class="services">
+              <div class="services-icon">
+                <i class="fa fa-book fa-2xl" aria-hidden="true"></i>
+              </div>
+              <h3>Book & Library</h3>
+              <p>
+                Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic.
+              </p>
+            </div>
+          </div>
+          <div class="inner-service">
+            <div class="services">
+              <div class="services-icon">
+                <i class="fa fa-certificate fa-2xl" aria-hidden="true"></i>
+              </div>
+              <h3>Sport Clubs</h3>
+              <p>
+                Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- OFFER SECTION -->
+      <section class="uni-offer" id="about-">
+        <div id="uni-offer-content">
+          <h2>What We Offer</h2>
+          <p>
+            On her way she met a copy. The copy warned the Little Blind Text,
+            that where it came from it would have been rewritten a thousand
+            times and everything that was left from its origin would be the
+            word.
+          </p>
+          <div class="uni-offer-option">
+            <div class="uni-offer-desc">
+              <div class="uni-offer-icon">
+                <i class="fa fa-shield fa-2xl" aria-hidden="true"></i>
+              </div>
+              <div class="uni-offer-text">
+                <h3>Safety First</h3>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia.
+                </p>
+              </div>
+            </div>
+            <div class="uni-offer-desc">
+              <div class="uni-offer-icon">
+                <i class="fas fa-book-reader fa-2xl"></i>
+              </div>
+              <div class="uni-offer-text">
+                <h3>Regular Classes</h3>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia.
+                </p>
+              </div>
+            </div>
+            <div class="uni-offer-desc">
+              <div class="uni-offer-icon">
+                <i class="fa fa-certificate fa-2xl"></i>
+              </div>
+              <div class="uni-offer-text">
+                <h3>Certified Teachers</h3>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia.
+                </p>
+              </div>
+            </div>
+            <div class="uni-offer-desc">
+              <div class="uni-offer-icon">
+                <i class="fa fa-chalkboard-teacher fa-2xl"></i>
+              </div>
+              <div class="uni-offer-text">
+                <h3>Sufficient Classrooms</h3>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia.
+                </p>
+              </div>
+            </div>
+            <div class="uni-offer-desc">
+              <div class="uni-offer-icon">
+                <i class="fa fa-puzzle-piece fa-2xl"></i>
+              </div>
+              <div class="uni-offer-text">
+                <h3>Creative Lessons</h3>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia.
+                </p>
+              </div>
+            </div>
+            <div class="uni-offer-desc">
+              <div class="uni-offer-icon">
+                <i class="fa fa-child fa-2xl"></i>
+              </div>
+              <div class="uni-offer-text">
+                <h3>Sports Facilities</h3>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="uni-offer-img">
+          <img src="images/offer.jpg" alt="" />
+        </div>
+      </section>
+
+      <!-- VIDEO SECTION -->
+      <section class="fox-uni" id="about-">
+        <div class="uni-video">
+          <div class="video">
+            <div class="video-cover">
+              <img src="images/videoposter.jpg" alt="" />
+              <div class="play-icon">
+                <i class="fa fa-play fa-2xl" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="video-desc">
+            <h2>Fox University</h2>
+            <p>
+              Separated they live in. A small river named Duden flows by their
+              place and supplies it with the necessary regelialia. It is a
+              paradisematic country. A small river named Duden flows by their
+              place and supplies it with the necessary regelialia. It is a
+              paradisematic country, in which roasted parts of sentences fly
+              into your mouth.
+            </p>
+            <p>
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </p>
+          </div>
+        </div>
+        <div class="result">
+          <div class="block-items">
+            <strong class="counter" data-target="18"></strong>
+            <span>Certified Teachers</span>
+          </div>
+          <div class="block-items">
+            <strong class="counter" data-target="401"></strong>
+            <span>Students</span>
+          </div>
+          <div class="block-items">
+            <strong class="counter" data-target="30"></strong>
+            <span>Courses</span>
+          </div>
+          <div class="block-items">
+            <strong class="counter" data-target="50"></strong>
+            <span>Awards Won</span>
+          </div>
+        </div>
+        <div class="video-player" id="videoPlayer">
+          <video id="uni-Video" controls autoplay>
+            <source
+              src="video/4e1a0a7d-4220-470e-ab8d-ffc70649466e.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <i class="fa fa-close fa-2xl video-close-btn" aria-hidden="true"></i>
+        </div>
+      </section>
+
+      <!-- UNI COURSES -->
+      <section class="uni-course" id="course-">
+        <div class="uni-course-header">
+          <h2>Our Courses</h2>
+          <p>
+            Separated they live in. A small river named Duden flows by their
+            place and supplies it with the necessary regelialia. It is a
+            paradisematic country
+          </p>
+        </div>
+        <div class="uni-course-content">
+          <div class="uni-curse-product">
+            <div class="uni-course-product-desc">
+              <input type="hidden" value="1" id="product-id" />
+              <div class="uni-course-product-img">
+                <img
+                  src="images/pic1.jpg"
+                  alt=""
+                  width="300px"
+                  height="300px"
+                  id="image"
+                />
+              </div>
+              <p>
+                <span><i class="fa fa-user"></i>Mr. Khan</span>
+                <span><i class="fa fa-table"></i>10 seats</span>
+                <span><i class="fa fa-calendar"></i>4 Years</span>
+              </p>
+              <h3 class="product-name"><a href="#">Electric Engineering</a></h3>
+              <p>
+                Separated they live in. A small river named Duden flows by their
+                place and supplies it with the necessary regelialia. It is a
+                paradisematic country
+              </p>
+              <div class="mony">
+                <div class="uni-product-price">9000</div>
+                <span>$</span>
+              </div>
+              <div class="uni-course-product-buy">Buy It Now</div>
+            </div>
+          </div>
+          <div class="uni-curse-product">
+            <div class="uni-course-product-desc">
+              <input type="hidden" value="2" id="product-id" />
+              <div class="uni-course-product-img">
+                <img
+                  src="images/pic2.jpg"
+                  alt=""
+                  width="300px"
+                  height="300px"
+                  id="image"
+                />
+              </div>
+              <p>
+                <span><i class="fa fa-user"></i>Mr. Khan</span>
+                <span><i class="fa fa-table"></i>10 seats</span>
+                <span><i class="fa fa-calendar"></i>4 Years</span>
+              </p>
+              <h3 class="product-name"><a href="#">Electric Engineering</a></h3>
+              <p>
+                Separated they live in. A small river named Duden flows by their
+                place and supplies it with the necessary regelialia. It is a
+                paradisematic country
+              </p>
+              <div class="mony">
+                <div class="uni-product-price">9000</div>
+                <span>$</span>
+              </div>
+              <div class="uni-course-product-buy">Buy It Now</div>
+            </div>
+          </div>
+          <div class="uni-curse-product">
+            <div class="uni-course-product-desc">
+              <input type="hidden" value="3" id="product-id" />
+              <div class="uni-course-product-img">
+                <img
+                  src="images/pic3.jpg"
+                  alt=""
+                  width="300px"
+                  height="300px"
+                  id="image"
+                />
+              </div>
+              <p>
+                <span><i class="fa fa-user"></i>Mr. Khan</span>
+                <span><i class="fa fa-table"></i>10 seats</span>
+                <span><i class="fa fa-calendar"></i>4 Years</span>
+              </p>
+              <h3 class="product-name"><a href="#">Electric Engineering</a></h3>
+              <p>
+                Separated they live in. A small river named Duden flows by their
+                place and supplies it with the necessary regelialia. It is a
+                paradisematic country
+              </p>
+              <div class="mony">
+                <div class="uni-product-price">9000</div>
+                <span>$</span>
+              </div>
+              <div class="uni-course-product-buy">Buy It Now</div>
+            </div>
+          </div>
+          <div class="uni-curse-product">
+            <div class="uni-course-product-desc">
+              <input type="hidden" value="4" id="product-id" />
+              <div class="uni-course-product-img">
+                <img
+                  src="images/pic4.jpg"
+                  alt=""
+                  width="300px"
+                  height="300px"
+                  id="image"
+                />
+              </div>
+              <p>
+                <span><i class="fa fa-user"></i>Mr. Khan</span>
+                <span><i class="fa fa-table"></i>10 seats</span>
+                <span><i class="fa fa-calendar"></i>4 Years</span>
+              </p>
+              <h3 class="product-name"><a href="#">Electric Engineering</a></h3>
+              <p>
+                Separated they live in. A small river named Duden flows by their
+                place and supplies it with the necessary regelialia. It is a
+                paradisematic country
+              </p>
+              <div class="mony">
+                <div class="uni-product-price">9000</div>
+                <span>$</span>
+              </div>
+              <div class="uni-course-product-buy">Buy It Now</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEACHERS -->
+      <section class="teachers" id="teachers-">
+        <div class="teachers-header">
+          <h2>Certified Teachers</h2>
+          <p>
+            Separated they live in. A small river named Duden flows by their
+            place and supplies it with the necessary regelialia. It is a
+            paradisematic country
+          </p>
+        </div>
+        <div class="teachers-content">
+          <div class="teachers-desc">
+            <a>
+              <img src="images/t1.jpg" alt="" />
+            </a>
+            <div class="teachers-title">
+              <h3>Bianca Wilson</h3>
+            </div>
+            <div class="teachers-course">
+              <span>Teacher</span>
+            </div>
+            <div class="teachers-bio">
+              <p>
+                I am an ambitious workaholic, but apart from that, pretty simple
+                person.
+              </p>
+            </div>
+            <div class="teachers-social">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="teachers-desc">
+            <a>
+              <img src="images/t2.jpg" alt="" />
+            </a>
+            <div class="teachers-title">
+              <h3>Mitch Parker</h3>
+            </div>
+            <div class="teachers-course">
+              <span>English Teacher</span>
+            </div>
+            <div class="teachers-bio">
+              <p>
+                I am an ambitious workaholic, but apart from that, pretty simple
+                person.
+              </p>
+            </div>
+            <div class="teachers-social">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="teachers-desc">
+            <a>
+              <img src="images/t3.jpg" alt="" />
+            </a>
+            <div class="teachers-title">
+              <h3>Stella Smith</h3>
+            </div>
+            <div class="teachers-course">
+              <span>Art Teacher</span>
+            </div>
+            <div class="teachers-bio">
+              <p>
+                I am an ambitious workaholic, but apart from that, pretty simple
+                person.
+              </p>
+            </div>
+            <div class="teachers-social">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="teachers-desc">
+            <a>
+              <img src="images/t4.jpg" alt="" />
+            </a>
+            <div class="teachers-title">
+              <h3>Monshe Henderson</h3>
+            </div>
+            <div class="teachers-course">
+              <span>Science Teacher</span>
+            </div>
+            <div class="teachers-bio">
+              <p>
+                I am an ambitious workaholic, but apart from that, pretty simple
+                person.
+              </p>
+            </div>
+            <div class="teachers-social">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- QOUTE SECTION -->
+      <section class="qoute">
+        <div class="qoute-content">
+          <div class="qoute-header">
+            <h2>Request A Quote</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <div class="qoute-frm">
+            <form action="" method="post">
+              <div class="form-request">
+                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="Last Name" class="right" />
+              </div>
+              <div class="form-request">
+                <select name="" id="">
+                  <option value="">Select Your Course</option>
+                  <option value="">Art Lesson</option>
+                  <option value="">Language Lesson</option>
+                  <option value="">Music Lesson</option>
+                  <option value="">Sports</option>
+                  <option value="">Other Services</option>
+                </select>
+                <input type="tel" placeholder="Phone" class="right" />
+              </div>
+              <div class="form-request">
+                <textarea
+                  name=""
+                  id="textarea"
+                  cols="15"
+                  rows="4"
+                  placeholder="Message"
+                  maxlength="50"
+                ></textarea>
+                <div class="remaining">
+                  <div id="textarea-remaining">50 Characters Left</div>
+                </div>
+                <div class="btn-animate">
+                  <input
+                    type="button"
+                    value="Request A Qoute"
+                    class="right btnQoute"
+                  />
+                  <!-- <span></span> -->
+                </div>
+                <!-- <span class="animate"></span> -->
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- RECENT BLOG -->
+      <section class="recent-blog" id="recent-blog-">
+        <div class="recent-blog-header">
+          <h2>Recent Blog</h2>
+          <p>
+            Separated they live in. A small river named Duden flows by their
+            place and supplies it with the necessary regelialia. It is a
+            paradisematic country
+          </p>
+        </div>
+        <i class="fa fa-angle-left blog-angle-left"></i>
+        <div class="recent-blog-content" id="blog-slider">
+          <div class="recent-blog-entry">
+            <div class="blog-img">
+              <img src="images/blog1.jpg" alt="" />
+              <div class="blog-date">
+                <span>26</span>
+                <span>June</span>
+                <span>2022</span>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h3><a href="">Skills To Develop Your Child Memory</a></h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="blog-item">
+                <li>
+                  <a href="#">Read More<i class="fa fa-arrow-right"></i></a>
+                </li>
+                <li>
+                  <a href="#">Admin</a>
+                  <a href=""><i class="fa fa-message"></i>3</a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="recent-blog-entry">
+            <div class="blog-img">
+              <img src="images/blog2.jpg" alt="" />
+              <div class="blog-date">
+                <span>26</span>
+                <span>June</span>
+                <span>2022</span>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h3><a href="">Skills To Develop Your Child Memory</a></h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="blog-item">
+                <li>
+                  <a href="#">Read More<i class="fa fa-arrow-right"></i></a>
+                </li>
+                <li>
+                  <a href="#">Admin</a>
+                  <a href=""><i class="fa fa-message"></i>3</a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="recent-blog-entry">
+            <div class="blog-img">
+              <img src="images/blog3.jpg" alt="" />
+              <div class="blog-date">
+                <span>26</span>
+                <span>June</span>
+                <span>2022</span>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h3><a href="">Skills To Develop Your Child Memory</a></h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="blog-item">
+                <li>
+                  <a href="#">Read More<i class="fa fa-arrow-right"></i></a>
+                </li>
+                <li>
+                  <a href="#">Admin</a>
+                  <a href=""><i class="fa fa-message"></i>3</a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="recent-blog-entry">
+            <div class="blog-img">
+              <img src="images/pic1.jpg" alt="" />
+              <div class="blog-date">
+                <span>26</span>
+                <span>June</span>
+                <span>2022</span>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h3><a href="">Skills To Develop Your Child Memory</a></h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="blog-item">
+                <li>
+                  <a href="#">Read More<i class="fa fa-arrow-right"></i></a>
+                </li>
+                <li>
+                  <a href="#">Admin</a>
+                  <a href=""><i class="fa fa-message"></i>3</a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="recent-blog-entry">
+            <div class="blog-img">
+              <img src="images/pic2.jpg" alt="" />
+              <div class="blog-date">
+                <span>26</span>
+                <span>June</span>
+                <span>2022</span>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h3><a href="">Skills To Develop Your Child Memory</a></h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="blog-item">
+                <li>
+                  <a href="#">Read More<i class="fa fa-arrow-right"></i></a>
+                </li>
+                <li>
+                  <a href="#">Admin</a>
+                  <a href=""><i class="fa fa-message"></i>3</a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="recent-blog-entry">
+            <div class="blog-img">
+              <img src="images/pic4.jpg" alt="" />
+              <div class="blog-date">
+                <span>26</span>
+                <span>June</span>
+                <span>2022</span>
+              </div>
+            </div>
+            <div class="blog-text">
+              <h3><a href="">Skills To Develop Your Child Memory</a></h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="blog-item">
+                <li>
+                  <a href="#">Read More<i class="fa fa-arrow-right"></i></a>
+                </li>
+                <li>
+                  <a href="#">Admin</a>
+                  <a href=""><i class="fa fa-message"></i>3</a>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i class="fa fa-angle-right blog-angle-right"></i>
+      </section>
+
+      <!-- ABOUT US -->
+      <section class="about-us" id="contact-">
+        <div class="about-us-header">
+          <h2>Student Says About Us</h2>
+          <p>
+            Separated they live in. A small river named Duden flows by their
+            place and supplies it with the necessary regelialia. It is a
+            paradisematic country
+          </p>
+        </div>
+        <div class="about-us-content">
+          <div class="about-us-slider">
+            <div class="students-says sliderActive">
+              <div class="students-img">
+                <img src="images/t1.jpg" alt="" />
+              </div>
+              <div class="student-desc">
+                <i class="fa fa-quote-left fa-2xl" aria-hidden="true"></i>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <p>Ken Bosh</p>
+                <span>Mother</span>
+              </div>
+            </div>
+            <div class="students-says">
+              <div class="students-img">
+                <img src="images/t2.jpg" alt="" />
+              </div>
+              <div class="student-desc">
+                <i class="fa fa-quote-left fa-2xl" aria-hidden="true"></i>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <p>Ken Bosh</p>
+                <span>Mother</span>
+              </div>
+            </div>
+            <div class="students-says">
+              <div class="students-img">
+                <img src="images/t3.jpg" alt="" />
+              </div>
+              <div class="student-desc">
+                <i class="fa fa-quote-left fa-2xl" aria-hidden="true"></i>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <p>Ken Bosh</p>
+                <span>Mother</span>
+              </div>
+            </div>
+            <div class="students-says">
+              <div class="students-img">
+                <img src="images/t4.jpg" alt="" />
+              </div>
+              <div class="student-desc">
+                <i class="fa fa-quote-left fa-2xl" aria-hidden="true"></i>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <p>Ken Bosh</p>
+                <span>Mother</span>
+              </div>
+            </div>
+          </div>
+          <div class="slider-dot">
+            <button>
+              <i class="fa fa-circle sliderActive" data-id="0"></i>
+            </button>
+            <button>
+              <i class="fa fa-circle" data-id="1"></i>
+            </button>
+            <button>
+              <i class="fa fa-circle" data-id="2"></i>
+            </button>
+            <button>
+              <i class="fa fa-circle" data-id="3"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="gallery">
+        <div class="gallery-item">
+          <img src="images/pic1.jpg" alt="" />
+          <i class="fa fa-instagram"></i>
+        </div>
+        <div class="gallery-item">
+          <img src="images/blog2.jpg" alt="" />
+          <i class="fa fa-instagram"></i>
+        </div>
+        <div class="gallery-item">
+          <img src="images/blog3.jpg" alt="" />
+          <i class="fa fa-instagram"></i>
+        </div>
+        <div class="gallery-item">
+          <img src="images/videoback.jpg" alt="" />
+          <i class="fa fa-instagram"></i>
+        </div>
+      </section>
+
+      <!-- GO TO TOP -->
+      <section class="to-top">
+        <a href="#">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer-content">
+          <div id="question">
+            <h2>Have a Questions?</h2>
+            <div id="contact-us">
+              <ul>
+                <li>
+                  <i class="fa fa-map-marker"></i>
+                  <span
+                    >203 Fake St. Mountain View, San Francisco, California,
+                    USA</span
+                  >
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-phone"></i>
+                    <span>+2 392 3929 210</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fa fa-envelope"></i>
+                    <span>info@yourdomain.com</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="recent">
+            <h2>Recent Blog</h2>
+            <div class="block">
+              <a href="#">
+                <img src="images/blog1.jpg" alt="" />
+              </a>
+              <div class="item">
+                <a href="#"
+                  >Even the all-powerful Pointing has no control about</a
+                >
+                <a href=""><i class="fa fa-calendar">&nbsp;June 27, 2022</i></a>
+                <a href=""><i class="fa fa-user">&nbsp;Admin</i></a>
+                <a href=""><i class="fas fa-comment-alt">&nbsp;19</i></a>
+              </div>
+            </div>
+            <div class="block">
+              <a href="#">
+                <img src="images/blog2.jpg" alt="" />
+              </a>
+              <div class="item">
+                <a href="#"
+                  >Even the all-powerful Pointing has no control about</a
+                >
+
+                <a href=""><i class="fa fa-calendar">&nbsp;June 27, 2022</i></a>
+                <a href=""><i class="fa fa-user">&nbsp;Admin</i></a>
+                <a href=""><i class="fas fa-comment-alt">&nbsp;19</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="links-">
+            <h2>Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Deparments</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="Subscribe">
+            <h2>Subscribe Us!</h2>
+            <form action="" method="">
+              <input type="email" placeholder="Enter email address" />
+              <input type="submit" value="Subscribe" />
+            </form>
+            <div class="social">
+              <h2>Connect With Us</h2>
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copy-right">
+          <p>
+            Copyright ©2022 All rights reserved | This template is made with
+            <i class="fa fa-heart" aria-hidden="true"></i> by Colorlib
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- <script src="js/all.min.js"></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
